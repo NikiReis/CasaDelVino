@@ -1,0 +1,20 @@
+#Nome{
+    margin-bottom: 5vh;  
+    margin-left: 10px; 
+}
+
+#sobrenome{
+    margin-left: 6vw;
+}
+#email{
+    margin-left: 10px;
+}
+#Telefone{
+    margin-left: 6vw;
+}
+#Telefone-input{
+    margin-bottom: 5vh;
+}
+#Mensagem{
+    margin-left: 10px;
+}

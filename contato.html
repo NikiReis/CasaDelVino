@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Página</title>
+    <link rel="stylesheet" type="text/css" href="casadelvino.css">
+    <link rel="stylesheet" type="text/css" href="buttons-labs-imgs.css">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+    <body class="body_site">
+        <div class="container">
+            <div class="logo">
+                <a href="casadelvino.html"><img src="Menu/Untitled-removebg-preview.png"/></a>
+            </div>
+            <nav class="menu_navigation">
+                <ul>
+                    <li>
+                        <a href="casadelvino.html"><p id="Options">INICIO</p></a>
+                        <a href="galeria.html"><p id="Options">GALERIA</p></a>
+                        <a href="contato.html"><p id="Options">CONTATO</p></a>
+                        <a href="blog.html"><p id="Options">BLOG</p></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div>
+                <div style="display: flex; margin-left: 5vw; margin-top: 5vh;">
+                    <h1>Fale Conosco</h1>
+                </div>
+                <section class="formulario"> 
+                    <form>
+                        <label for="Nome">Nome: </label> 
+                        <input type="text" id="Nome" name="Nome">
+                        <label for="sobrenome" id="sobrenome">Sobrenome: </label>
+                        <input type="text" name="sobrenome"><br>
+                        <label for="E-mail">E-mail: </label>
+                        <input type="email" id="email" name="E-mail">
+                        <label for="Telefone" id="Telefone">Telefone:</label>
+                        <input type="number" id="Telefone-input" name="Telefone"><br>
+                        <label for="Mensagem-label">Mensagem:</label><br>
+                        <textarea id="Mensagem">
+                            
+                        </textarea><br>
+                        <button type="submit" class="button">
+                            Enviar
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <script>
+            window.scroll({
+                top:0,
+                behavior: 'smooth',
+            })
+        </script>
+    </body>
+</html>
